@@ -522,11 +522,11 @@ a.back-to-top:focus {
 }
 /* 햄버거 색상 설정 */
 .slicknav_btn {
-    border-color: rgb(223, 32, 32);
+    border-color: #de3737;
 }
-/* 햄버거 색상 설정 */
+/* 햄버거 막대기 색상 설정 */
 .slicknav_menu .slicknav_icon-bar {
-    background:  rgb(223, 32, 32);
+    background:  #de3737;
 }
 
 
