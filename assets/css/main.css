@@ -7,12 +7,12 @@
 html {
     overflow-x: hidden;
 }
-
+/* 전체 배경 레이아웃 색상  */
 body {
-    background: #313f67;
+    background: #360000;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: font-family: 'Nanum Gothic', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -33,7 +33,7 @@ h3,
 h4 {
     font-size: 36px;
     font-weight: 700;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
@@ -53,7 +53,7 @@ a a:focus {
 
 p {
     font-weight: 400;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     margin: 0px;
     font-size: 14px;
 }
@@ -725,7 +725,7 @@ a.back-to-top:focus {
 
 .time-entry span {
     font-size: 45px;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     line-height: 45px;
     font-weight: 700;
     display: block;
@@ -767,7 +767,7 @@ a.back-to-top:focus {
     font-size: 45px;
     font-weight: 700;
     color: #fff;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     display: block;
     width: 100%;
 }
@@ -797,7 +797,7 @@ a.back-to-top:focus {
 .line-right .time-count .time-entry span {
     font-size: 45px;
     font-weight: 700;
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     color: #fff;
     display: block;
     width: 100%;
@@ -1226,7 +1226,7 @@ a.back-to-top:focus {
 /* Footer Area Start */
 
 .footer-area {
-    background: #252525;
+    background: #0c2447;
 }
 
 .footer-area .social-icon li {
@@ -1279,13 +1279,14 @@ a.back-to-top:focus {
 }
 
 .footer-area .footer-text p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 0px;
     color: #fff;
 }
 
 .footer-area .footer-text p a {
-    color: #E91E63;
+    font-size: 12px;
+    color: white;
 }
 
 .footer-area .footer-text .nav-inline .nav-link {
@@ -1355,7 +1356,6 @@ a.back-to-top:focus {
 .background-change-wrap {
     /* height: 100vh; */
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .background-change-wrap>div {
@@ -1366,7 +1366,10 @@ a.back-to-top:focus {
     left: 0;
     /* height: 100vh; */
 }
-
+.imgBtn{
+    display: flex;
+    
+}
 .background-change-wrap>div>h2 {
     margin: 0;
     padding: 10px;
@@ -1674,34 +1677,6 @@ a.back-to-top:focus {
     border: 0px;
 }
 
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    height: 100%;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    /* Stay in place */
-    z-index: 9999999999;
-    /* Sit on top */
-    padding-top: 5%;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
-}
 
 .swiper-container {
     width: 100%;

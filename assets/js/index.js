@@ -9,7 +9,7 @@ function isElementUnderBottom(elem, triggerDiff) {
     } = window;
     return top > innerHeight + (triggerDiff || 0);
 }
-
+//스크롤 애니메이션 영역
 function handleScroll() {
     ticking = false;
 
@@ -17,7 +17,7 @@ function handleScroll() {
     upOnScrollElems.forEach(elem => {
         if (isElementUnderBottom(elem)) {
             elem.style.opacity = "0";
-            elem.style.transform = 'translateY(200px)';
+            elem.style.transform = 'translateY(250px)';
         } else {
             elem.style.opacity = "1";
             elem.style.transform = 'translateY(0px)';
