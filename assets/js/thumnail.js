@@ -8,6 +8,8 @@
         title: '한성교회 성탄 감사 예배',
         description: '성탄 감사 예배',
         imageUrl: 'https://github.com/HanSung-Church/Invitation-Card/blob/master/thumbnail.png',
+        width: '300',
+        height: '200'
         link: {
           mobileWebUrl: 'https://hansung-church.github.io/Invitation-Card/',
         }
