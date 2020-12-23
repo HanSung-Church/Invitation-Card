@@ -1,4 +1,5 @@
  //<![CDATA[
+   /* 카카오 디벨로퍼를 활용한 일대 다수 보내기 카카오톡의 한에서 */
     Kakao.init('2006c8a65ba2cbaaa84a94ae6322b7d6');
 
     Kakao.Link.createDefaultButton({
