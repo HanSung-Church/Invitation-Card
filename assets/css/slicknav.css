@@ -1,7 +1,5 @@
 /*!
  * SlickNav Responsive Mobile Menu v1.0.3
- * (c) 2015 Josh Cope
- * licensed under MIT
  */
 .slicknav_btn {
   cursor: pointer;
@@ -19,17 +17,21 @@
 
 .slicknav_menu {
   *zoom: 1; }
+
   .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
     float: left; }
+
   .slicknav_menu .slicknav_icon {
     margin: 0.188em 0 0 0.438em; }
+
   .slicknav_menu .slicknav_no-text {
     margin: 0; }
+
   .slicknav_menu .slicknav_icon-bar {
     display: block;
-    width: 1.125em;
+    width: 1.3em;
     height: 0.125em;
     margin: 0 auto;
     -webkit-border-radius: 1px;
@@ -40,14 +42,17 @@
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
+
   .slicknav_menu:before {
     content: " ";
     display: table; }
+
   .slicknav_menu:after {
     content: " ";
     display: table;
     clear: both; }
 
+/* 모바일 네비셋팅 영역 start */
 .slicknav_nav {
   clear: both; }
   .slicknav_nav ul {
@@ -84,7 +89,7 @@
   box-sizing: border-box;
 }
 .slicknav_menu ul{
-  background: #fff;
+  background: #1b2f52;
 }
   .slicknav_menu * {
     box-sizing: border-box; }
@@ -94,7 +99,7 @@
     text-shadow: 0 1px 3px #000; }
 
 .slicknav_btn {
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 0;
   margin: 11px 15px;
   -webkit-transition: all 0.2s linear;
@@ -104,6 +109,7 @@
 }
 
 .slicknav_nav {
+  text-align: center;
   color: #fff;
   font-size: 0.875em;
   list-style: outside none none;
@@ -117,19 +123,32 @@
     overflow: hidden;
     padding: 0;
     margin: 0 0 0 20px; }
+
   .slicknav_nav .slicknav_row {
     padding: 5px 10px;
     margin: 2px 5px; }
+
   .slicknav_nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #666; }
+    color: white; }
+
+/* 폰트어썸 글자색 */
+    .slicknav_nav a i{
+      color: rgb(223, 32, 32);
+      font-size:16px;
+    }
+
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
+
   .slicknav_nav .slicknav_item a {
     padding: 0;
     margin: 0; }
+    
   .slicknav_nav .slicknav_parent-link a {
     padding: 0;
     margin: 0; }
